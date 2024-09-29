@@ -1,0 +1,359 @@
+/*
+* DISCLAIMER
+*
+* Do not edit or add to this file.
+* You are not authorized to modify, copy or redistribute this file.
+* Permissions are reserved by Satoshi Brasileiro.
+*
+*  @author    Satoshi Brasileiro
+*  @copyright Satoshi Brasileiro 2021
+*  @license   Single domain
+*/
+
+#container {
+    background-color: #f4f4f4;
+    position: relative;
+    width: 100%;
+}
+.content-container {
+    padding: 20px 20px 0;
+}
+.custom_design-result-count {
+    display: none;
+}
+#design_content #inner-content {
+    margin: auto;
+    max-width: 1200px;
+}
+#design_content #inner-content #main-design {
+    background-color: #fff;
+    box-shadow: 0 0px 0px #fff;
+    margin-bottom: 0px;
+    padding: 2% 0px;
+}
+.DesignPanelContent{
+    height: auto!important;
+}
+#design_content #inner-content #main-design ul.products li.product .add_to_cart_button, .quantity .single_add_to_cart_button {
+    background-color: #81c0c5;
+    color: #fff;
+    font-family: Open sans,Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+#design_content #inner-content #main-design ul.products li.product .add_to_cart_button:hover {
+    opacity: 0.9;
+}
+p, .product_meta span, label {
+    color: #444;
+    font-family: Arial,Helvetica;
+    font-size: 13px;
+    line-height: 150%;
+}
+.star-rating span {
+    color: #81c0c5;
+}
+.entry-content h2, .related h2, #comments h2, .comment-respond #reply-title {
+    color: #389090;
+    font-family: Open sans,Helvetica,Arial;
+    font-weight: normal;
+}
+.custom_design-review-link, .reset_variations {
+    color: #000;
+    font-family: Open sans,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+}
+ul.products li.product a h3, .entry-summary .product_title, .shop_table tr td, .shop_table tr td a, .custom_design-message {
+    color: #484c51;
+    font-family: Open sans,Helvetica,Arial,sans-serif;
+}
+#comments ol {
+    padding: 0;
+}
+.price del, .price ins, .price span.amount {
+    font-family: Open sans,Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+.price del span.amount {
+    color: red;
+}
+.content-container h1, .page-title {
+    background-color: #f4f4f4;
+    color: #81c0c5;
+    font-family: "Montserrat",Helvetica,Arial,sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    margin: 0;
+    max-width: 1200px;
+    padding: 30px 0;
+    text-transform: uppercase;
+}
+.content-container h1::before, .page-title::before {
+    background-color: #81c0c5;
+    content: "";
+    display: inline-block;
+    height: 25px;
+    margin-right: 10px;
+    position: relative;
+    top: 4px;
+    width: 5px;
+}
+table thead {
+    background-color: #efefef;
+    text-transform: uppercase;
+}
+a {
+    color: #389090;
+    text-decoration: none;
+}
+#main-design #design_content {
+    background-color: #fff;
+    padding: 0;
+}
+select, form input, textarea {
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    color: gray;
+    padding: 4px;
+}
+select {
+    height: 35px;
+}
+textarea {
+    font-family: Open sans,Helvetica,Arial;
+}
+.demo-request, .buy-extension, .wpc_download {
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 25px auto !important;
+    color: #fff;
+    display: block;
+    font-family: Open sans,Helvetica,Arial;
+    font-weight: bold;
+    left: 0;
+    margin-bottom: 10px;
+    padding: 10px 0 10px 30px;
+    position: fixed;
+    width: 210px;
+    z-index: 99;
+}
+.buy-extension {
+    background-color: red;
+    background-image: url("../img/buy-it.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 25px auto !important;
+}
+.demo-request {
+    background-color: #389090;
+    background-image: url("../img/admindemo.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 25px auto !important;
+    margin-top: 45px;
+}
+.wpc_download {
+    background-color: rgb(104, 184, 196);
+    background-image: url("../img/download.png");
+    margin-top: 90px;
+}
+.custom_design-breadcrumb {
+    display: none;
+}
+.related {
+    float: left;
+}
+u, ins {
+    text-decoration: none;
+}
+span.price del {
+    float: left;
+    margin-right: 5px;
+}
+.custom_design-product-rating {
+    display: none !important;
+}
+.shop_table input.button, .summary .cart button.single_add_to_cart_button, #review_form form p.form-submit input.submit {
+    background-color: #81c0c5;
+    color: #fff;
+    font-weight: 100;
+}
+.shop_table input.button:hover, .comment-form p input.submit:hover, .summary .cart button.single_add_to_cart_button:hover, #review_form form p.form-submit input.submit:hover {
+    background-color: #81c0c5;
+    color: #fff;
+    opacity: 0.9;
+}
+.shop_table th {
+    color: #389090;
+}
+.cart_totals h2 {
+    color: #f57900;
+}
+.cart_totals table tbody tr th {
+    text-align: left;
+}
+.cart_totals table tbody tr td {
+    text-align: right;
+}
+.cart_totals div.wc-proceed-to-checkout .checkout-button, #payment input.button {
+    background-color: #f57900;
+    font-weight: 100;
+}
+.cart_totals div.wc-proceed-to-checkout .checkout-button:hover, #payment input.button:hover {
+    background-color: #f57900;
+    opacity: 0.9;
+}
+.cart_totals table {
+    width: 100%;
+}
+.custom_design .input-text, .select2-chosen {
+    font-size: 16px;
+}
+.custom_design .input-text {
+    padding: 6px;
+}
+.custom_design-billing-fields h3, .custom_design-shipping-fields h3 {
+    border-bottom: 1px solid #309090;
+    padding-bottom: 15px;
+}
+@media screen and (max-width: 768px) {
+.header .header-container .menu_mobile {
+    display: block;
+}
+.header .header-container .menu_mobile a:active {
+    color: #81c0c5;
+}
+.header .header-container .menu-container ul li {
+    float: none;
+}
+.header .header-container .menu-container {
+    width: 100%;
+    z-index: 1000;
+}
+.header .header-container .menu-container .social-container {
+    display: none;
+}
+.header .header-container .menu-container ul li {
+    border-bottom: 1px solid #333;
+}
+.header .header-container .menu-container ul li:last-child {
+    border-bottom: medium none;
+}
+.header .header-container .menu-container ul {
+    padding: 0;
+    width: 100%;
+}
+.header .header-container .menu-container nav {
+    background-color: #000;
+    margin-bottom: 20px;
+    opacity: 0.8;
+    width: 100%;
+}
+.header .header-container .menu-container ul li a {
+    color: #fff;
+    width: 93%;
+}
+.header .header-container .menu-container ul li a:active {
+    color: #fff;
+}
+.header .header-container .menu-container ul li a:hover::after {
+    background: #81c0c5 none repeat scroll 0 0;
+    width: 0;
+}
+header .header-container .menu-container {
+    display: none;
+}
+header .header-container .normal-menu {
+    display: block;
+}
+}
+
+.design_loader
+{
+  background: url(../../views/img/deisgning.gif) no-repeat scroll center center #fff;
+  height: 100%;
+  left: 0;
+  opacity: 0.85;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+
+}
+
+.working_loader {
+    background: #fff url("../../views/img/working.gif") no-repeat scroll center center / 20% auto;
+    height: 100%;
+    left: 0;
+    opacity: 0.85;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.cpd-editor-col.right .material-wrapper,
+.cpd-editor-col.right #cpd-variants { padding: 10px; min-width: 200px; min-height: 100px; background: #fff;box-shadow:2px 5px 16px #ccc;
+display: none;position: absolute; left: -182px; top: 0px; z-index: 9999; text-align: left}
+.cpd-editor-col.right .material-wrapper { left: -190px;}
+.cpd-editor-col.right .material-wrapper::before,
+.cpd-editor-col.right #cpd-variants::before {font-family: Material Icons;
+	font-size: 20px;
+	color: #fff;
+	line-height: 1px;
+	display: block;
+	position: absolute;
+    top: 25px;
+	right: -13px;
+	content: 'play_arrow';}
+/*-------------------- New Version Design Rehaul -------------------*/
+#personalization #cpd_header_wrap { clear: both; width: 100%; /*box-shadow:2px 2px 8px 0 rgba(0,0,0,.2);*/
+border-bottom: 1px solid rgba(0, 0, 0, 0.125);}
+#personalization #cpd_header { width: 100%;background: #fff;}
+#personalization #cpd_header::after { content: "."; clear: both; display: block; clear: both; height: 0px; visibility: hidden;}
+#personalization #cpd_header_wrap .cpd_header_left { float: left; padding: 13px 2%; font-size: 16px; color: #232323; max-width: 45%}
+#personalization #cpd_header_wrap .cpd_header_right { float: right;}
+#personalization #cpd_header_wrap .cpd_header_right a { color: #444; display: inline-block; padding: 16px 20px; font-size: 14px; padding-left: 37px;
+ background: #EFEFEF; position: relative; outline: none;}
+#personalization #cpd_header_wrap .cpd_header_right a:active,
+#personalization #cpd_header_wrap .cpd_header_right a:focus {outline: none; text-decoration:none;}
+#personalization #cpd_header_wrap .cpd_header_right a:hover { color: #fff !important; background: #ff7c1f;}
+#personalization #cpd_header_wrap .cpd_header_right a::before {
+	font-family: Material Icons;
+	font-size: 20px;
+	color: #444;
+	line-height: 22px;
+	display: block;
+	position: absolute;
+	left: 7px;
+	content: 'clear';
+}
+#personalization #cpd_header_wrap .cpd_header_right a:hover::before { color: #fff;}
+#personalization #cpd_footer_wrap {width: 100%;background: #fff; position: fixed; bottom: 0px; left: 0; z-index: 9999;
+border-top: 1px solid rgba(0, 0, 0, 0.125); min-height: 40px; text-align: right;}
+/*.working_loader
+{
+  background: url(../../views/img/working.gif) no-repeat scroll center center #fff;
+  height: 100%;
+  left: 0;
+  opacity: 0.85;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+
+}*/
+
+/*{
+    background: #fff url("../../views/img/pie.gif") no-repeat scroll center center;
+    height: 100%;
+    left: 25%;
+    opacity: 0.85;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    z-index: 99;
+}*/

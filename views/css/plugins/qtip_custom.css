@@ -1,0 +1,70 @@
+/*
+* DISCLAIMER
+*
+* Do not edit or add to this file.
+* You are not authorized to modify, copy or redistribute this file.
+* Permissions are reserved by Satoshi Brasileiro.
+*
+*  @author    Satoshi Brasileiro
+*  @copyright Satoshi Brasileiro 2021
+*  @license   Single domain
+*/
+
+.qtip_group_form { width: 100%; height: auto; max-width: 70%; /*top: 65px!important;*/}
+.qtip-close { right: 16px!important; top: 10px!important; }
+.qtip-icon .ui-icon { color: red !important; border: 0px !important;}
+
+/* jquery-ui*/
+.ui-resizable-handle { z-index: 9!important; }
+
+/*cpd*/
+#cpd_design_preview { min-width: 320px; min-height: 480px; padding: 5px; border: 1px solid #e5e5e5; border-radius: 0.1rem; display: block; margin-bottom: 0.75rem; position: relative; }
+#cpd_image_thumbs { overflow: auto; }
+.cpd_layer_top { border: 1px dashed #c4c4c4; text-align: center; }
+.designer_panel { min-width: 320px; min-height: 320px; position: relative; width: 100%}
+.cpd_image_upload { visibility: hidden;}
+.cpd_upload_area .image_up { position: relative;left: 9.5em; }
+.image_up, .cpd_select_image { cursor: pointer; }
+.cpd_fade { background: no-repeat scroll top center #000; height: 100%; left: 0; opacity: 0.6; position: absolute; top: 0; width: 100%; z-index: 99;}
+.cpd_upload_area { border: 2px dotted #ddd; padding:15px;}
+/*.cpd_image_layer { width: 80px; height: 80px; padding: 0px 5px; background: #fde7bb; overflow: hidden!important; }*/
+.cpd_image_layer {
+    background: #fde7bb none repeat scroll 0 0;
+    height: 15%;
+    overflow: hidden !important;
+    padding: 0 5px;
+    position: absolute !important;
+    text-align: center;
+    width: 15%;
+}
+.cpd_text_layer { width: 80px; height: 48px; padding: 0px 5px; color: #fff; background: #6ed1e5; overflow: hidden!important; }
+.layer_tag { position: absolute; }
+/*.inner_layer { position: relative; }*/
+/*.cpd_img_icon img { padding: 2px; margin: 0px 5px; }*/
+.cpd_remove_img { cursor: pointer; }
+.cpd_image_pos { left: 90px; top: 30px; }
+.image_loader { background: url(../../img/circle-loading.gif) no-repeat scroll center center #fff; height: 100%; left: 0; opacity: 0.85; position: absolute; top: 0; width: 100%; z-index: 99; }
+a.status_layer, a.remove_layer { color: #fff; }
+a.design_title { color: #25b9d7!important; }
+.general_settings h3.panel-heading { padding: 16px 30px; }
+.ui-state-active > span.ui-accordion-header-icon{ background-position: -65px 0px; }
+.design_settings { max-height: 300px; min-height: 200px; overflow-y: scroll; display: block; padding: 5px; background: #fafbfc; margin-bottom: 30px}
+.design_settings table { margin-bottom: 0px;}
+.designer-panel .design_16 { white-space: normal!important; margin-top: -12px!important; padding-left: 25px!important;}
+.panel_actions { position: relative!important; right: 2px!important; color: #fff;}
+#cpd_add.add_16 { position: relative!important; top: -1px!important; left: 25px!important;}
+.pull-left {float: left;}
+.pull-right {float: right;}
+.cpd_workplace_area {
+    background: transparent;
+    height: 15%;
+   /* overflow: hidden !important;*/
+    padding: 0 5px;
+    position: absolute !important;
+    text-align: center;
+    width: 15%;
+    border: 1px dashed red;
+    border-radius: 4px;
+}
+.cpd_workplace_area a { cursor: pointer; font-size: 11px; font-weight: bold;}
+.cpd_workplace_area a:hover { color: red;}
