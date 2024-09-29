@@ -1,0 +1,148 @@
+/*
+* DISCLAIMER
+*
+* Do not edit or add to this file.
+* You are not authorized to modify, copy or redistribute this file.
+* Permissions are reserved by Satoshi Brasileiro.
+*
+*  @author    Satoshi Brasileiro
+*  @copyright Satoshi Brasileiro 2021
+*  @license   Single domain
+*/
+
+#vertical-logo, #horizontal-logo, #hsponsored1, #hsponsored2, #vsponsored1, #vsponsored2, #player_name, #player_number {
+    width: 250px;
+}
+.label_values {
+    font-weight: bold;
+    margin-top: 5px;
+}
+.logo_box {
+   /* border: 2px dashed #999;*/
+    left: 390px;
+    padding: 25px;
+    position: absolute;
+    text-align: center;
+    top: 175px;
+}
+.sponsored_box1 {
+   /* border: 2px dashed #999;*/
+    left: 280px;
+    padding: 25px;
+    position: absolute;
+    text-align: center;
+    top: 260px;
+}
+.sponsored_box2 {
+    /*border: 2px dashed #999;*/
+    left: 280px;
+    padding: 25px;
+    position: absolute;
+    text-align: center;
+    top: 370px;
+}
+.player_box {
+   /* border: 2px dashed #999;*/
+    left: 280px;
+    padding: 25px;
+    position: absolute;
+    text-align: center;
+    top: 370px;
+}
+.number_box {
+   /* border: 2px dashed #999;*/
+    left: 280px;
+    padding: 25px;
+    position: absolute;
+    text-align: center;
+    top: 370px;
+}
+.front_container, .back_container {
+    position: relative;
+    /*padding: 0 0 0 10%;*/
+}
+#player_name p,
+#sponsored_1 p,
+#sponsored_2 p{
+    word-break: break-all!important;
+}
+
+/**********************************************
+                Dragable style
+***********************************************/
+.draggable {
+    float: left;
+    height: 90px;
+    padding: 0.5em;
+    width: 90px;
+}
+#logo_area,{
+    min-width: 80px !important;
+    min-height: 80px!important;
+}
+#logo_area, #sponsored_1, #sponsored_2, #draggable4, #draggable5 {
+    cursor: move;
+}
+#sponsored_1, #player_name,#sponsored_2, #player_number {
+   /* min-width: 150px !important;
+    min-height: 80px!important;*/
+}
+#logo_area p, #sponsored_1 p, #sponsored_2 p, #player_name p, #player_number p {
+   /* padding: 20% 0;*/
+    text-align: center;
+}
+#front-dragable-wrapper {
+    background: url("../img/front.png") no-repeat scroll center center / 600px auto;
+    /*border: 0 none;*/
+    height: 670px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*width: 480px!important;*/
+   /* background-size:800px auto;*/
+}
+#back-dragable-wrapper {
+    background: url("../img/back.png") no-repeat scroll center center / 600px auto;
+   /* border: 0 none;*/
+    height: 670px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+   /* width: 480px!important;*/
+    /*background-size:800px auto;*/
+}
+#front_dragable_area, #back_dragable_area {
+   /* border: 2px dotted #999;*/
+    height: 455px;
+    width: 295px;
+}
+
+.total_price_block{
+	text-align: center;
+	font-size: 26px;
+	line-height: 30px;
+	border-top: 1px solid rgb(228, 228, 228);
+	width: 51%!important;
+	padding: 15px 10px;
+	margin-left: 5px;
+}
+
+#total-price{
+	font-size: 15px;
+}
+.adjust_width{
+    width: 90px!important;
+}
+.adjust_span_width{
+    width: 80px!important;
+}
+.push-right{
+float: right;
+margin-right: 5px;
+clear: all;
+}
+.push-left{
+float: left;
+margin-left: 5px;
+clear: all;
+}

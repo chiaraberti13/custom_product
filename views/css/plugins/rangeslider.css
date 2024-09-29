@@ -1,0 +1,75 @@
+
+.rangeslider, .rangeslider__fill {
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) inset;
+    display: block;
+}
+.rangeslider {
+    background: #e6e6e6 none repeat scroll 0 0;
+    margin-top: 5px;
+    position: relative;
+}
+.rangeslider--horizontal {
+    height: 12px;
+    width: 93%;
+}
+.rangeslider--vertical {
+    height: 100%;
+    max-height: 100%;
+    min-height: 150px;
+    width: 20px;
+}
+.rangeslider--disabled {
+    opacity: 0.4;
+}
+.rangeslider__fill {
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #abe0ed, #46b7d5) repeat scroll 0 0;
+    position: absolute;
+}
+.rangeslider--horizontal .rangeslider__fill {
+    height: 100%;
+    top: 0;
+}
+.rangeslider--vertical .rangeslider__fill {
+    bottom: 0;
+    width: 100%;
+}
+.rangeslider__handle {
+    background: white linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.1)) repeat scroll 0 0 / 100% auto;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    display: inline-block;
+    height: 25px;
+    position: absolute;
+    width: 25px;
+}
+.rangeslider__handle::after {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.13), rgba(255, 255, 255, 0));
+    background-size: 100% auto;
+    border-radius: 50%;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 10px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 10px;
+}
+.rangeslider__handle:active, .rangeslider--active .rangeslider__handle {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.12));
+    background-size: 100% auto;
+}
+.rangeslider--horizontal .rangeslider__handle {
+    top: -7px;
+}
+.rangeslider--vertical .rangeslider__handle {
+    left: -10px;
+}
+input[type="range"]:focus + .rangeslider .rangeslider__handle {
+    box-shadow: 0 0 8px rgba(255, 0, 255, 0.9);
+}

@@ -1,0 +1,373 @@
+/*
+* DISCLAIMER
+*
+* Do not edit or add to this file.
+* You are not authorized to modify, copy or redistribute this file.
+* Permissions are reserved by Satoshi Brasileiro.
+*
+*  @author    Satoshi Brasileiro
+*  @copyright Satoshi Brasileiro 2021
+*  @license   Single domain
+*/
+
+.span5-foo {
+    width: 490px;
+}
+#personalization {
+    /*position: relative;*/
+    width: 50%;
+}
+.persbox{
+    box-shadow: 2px 2px 11px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0;
+    display: block;
+    margin-bottom: 0.75rem;
+    position: relative;
+}
+.persbox-cont {
+    padding: 18px 10px;
+    position: relative;
+}
+.persbox-title {
+    background-color: rgb(68, 68, 68);
+    border-left: 5px solid #079246 !important;
+    padding: 6px 0 2px 5px !important;
+
+    border-bottom: 1px solid #555;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 28px;
+    margin-bottom: 15px;
+    text-align: left;
+    text-transform: uppercase;
+
+    /*background-color: rgb(68, 68, 68);
+    color: white;
+    font: 400 26px/36px "Martel Sans",sans-serif;
+    margin-bottom: -12px;
+    margin-top: 0;
+    overflow: hidden;
+    padding: 3px 0 10px 10px;*/
+}
+input.inputstyle, .inputstyle {
+    /*background: #27292f none repeat scroll 0 0;
+    border: 0 none;*/
+    padding: 0;
+}
+input.radioinput, .radioinput {
+    border-radius: 2px;
+}
+.inputselect {
+    cursor: pointer;
+    padding: 18px 10px;
+    position: relative;
+}
+.inputoption-list {
+    display: none;
+    z-index: 999;
+}
+#inputoption-selected {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.select-arrow {
+    margin-top: 3px;
+    position: absolute;
+    right: 12px;
+}
+.inpselect .select-arrow {
+    right: 8px;
+}
+.divcont.selector .select-arrow {
+    margin-top: 6px;
+}
+.inputoption-list {
+    left: 0;
+    position: absolute;
+    top: 58px;
+    width: 210px;
+}
+.inputoption-list .inputoption:hover, .inputoption-list .inputoption.optionselect {
+    background: #686868 none repeat scroll 0 0;
+}
+.inputoption-list .inputoption {
+    background: #27292f none repeat scroll 0 0;
+    left: 0;
+    padding: 14px 10px;
+    width: 210px;
+}
+#select-color {
+    background: #f7f7f7 none repeat scroll 0 0;
+    border: 1px solid #e4e4e4;
+    display: inline-block;
+    padding: 6px 0 0 6px;
+}
+#select-color .boxcolor {
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 31px;
+    margin: 0 6px 6px 0;
+    width: 31px;
+}
+/*#select-color .boxcolor {
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 35px;
+    margin: 0 6px 6px 0;
+    width: 35px;
+}*/
+.fontboxcolor {
+    display: none;
+}
+#select-color .boxcolor.coloreselected {
+    border: 1px solid #fff;
+    height: 20px;
+    width: 32px;
+}
+.inpselect {
+    background: #27292f none repeat scroll 0 0;
+}
+.inpselect select {
+    -moz-appearance: window;
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    height: 35px;
+    line-height: 14px;
+    min-width: 40px;
+    padding: 8px 10px 6px;
+    position: relative;
+    width: 100% !important;
+    z-index: 1;
+}
+input.fooinp {
+    box-shadow: none !important;
+    font-size: 12px !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    line-height: 18px;
+    margin: 2px 0px;
+    padding: 8px 5px 7px;
+}
+input.fooinp:focus {
+    border: 0 none !important;
+    box-shadow: none !important;
+}
+.boxlogosq.logosel {
+    border-color: #b5ff00;
+}
+.boxlogosq {
+    background: #eeeeee none repeat scroll 0 0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
+}
+.boxlogosq.boxlogosq-disabled {
+    cursor: default;
+    opacity: 0.5;
+}
+/*.boxlogosq img {
+    max-height: 72px;
+    max-width: 72px;
+}*/
+.price_tag {
+    color: #fff;
+    line-height: 28px;
+    padding: 5px 10px;
+}
+.price_tag_mini {
+   /* color: #fff;*/
+    line-height: 20px;
+    /*padding: 5px 10px;*/
+    font-size: 12px;
+    font-style: italic; 
+}
+.inputlabel {
+    font-weight: bold;
+}
+.separator {
+    border-bottom: 1px solid #202027;
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+#preview {
+    display: none;
+    height: 700px;
+    margin: 0 15px;
+    position: absolute;
+    top: 0;
+    width: 640px;
+    z-index: 11;
+}
+#select_view {
+    /*border-top: 1px solid #e4e4e4;
+    left: 10px;
+    padding: 15px 0;
+    position: absolute;
+    text-align: center;
+    top: 865px;
+    width: 50%;*/
+    border-top: 1px solid #e4e4e4;
+    margin-left: 15px;
+    margin-top: -194px;
+    padding: 15px 0;
+    text-align: center;
+    width: 50%;
+}
+#select_view img {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 5px;
+    opacity: 0.5;
+}
+#select_view img:hover {
+    opacity: 1;
+}
+#previewback {
+    display: none;
+    height: 640px;
+    position: absolute;
+    width: 640px;
+}
+#previewfront {
+    display: block;
+    height: 640px;
+    position: absolute;
+    width: 640px;
+}
+#previewnomemaglia {
+    left: 0;
+    min-height: 35px;
+    position: absolute;
+    text-align: center;
+    top: 75px;
+    width: 640px;
+    z-index: 1;
+}
+#previewnumeromaglia {
+    left: 0;
+    min-height: 135px;
+    position: absolute;
+    text-align: center;
+    top: 132px;
+    width: 640px;
+    z-index: 1;
+}
+#previewsponsor1 {
+    left: 0;
+    min-height: 35px;
+    position: absolute;
+    text-align: center;
+    top: 230px;
+    width: 640px;
+    z-index: 1;
+}
+#previewsponsor2 {
+    left: 0;
+    min-height: 35px;
+    position: absolute;
+    text-align: center;
+    top: 270px;
+    width: 640px;
+    z-index: 1;
+}
+#previewlogo {
+    height: 50px;
+    left: 364px;
+    position: absolute;
+    top: 145px;
+    width: 50px;
+    z-index: 1;
+}
+.spacename {
+    display: inline-block;
+    height: 34px;
+    position: relative;
+    width: 18px;
+}
+.spacename-small {
+    display: inline-block;
+    height: 20px;
+    position: relative;
+    width: 9px;
+}
+.yanone {
+    font-family: "Yanone Kaffeesatz",sans-serif !important;
+}
+.buttony {
+    border: 2px solid #ff8400;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+    margin: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.button0 {
+    background: #32333c none repeat scroll 0 0;
+    color: #b5ff00;
+}
+.button1 {
+    background: #b5ff00 none repeat scroll 0 0;
+    color: #32333c;
+}
+.bordertransparent {
+    border-color: transparent !important;
+}
+.margin {
+    clear: both;
+    float: none;
+    height: 1px;
+    margin: 10px 0 9px;
+    width: 100%;
+}
+.fooselect{
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #555!important;
+    height: 27px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#select-font {
+    display: block;
+    min-width: 100%;
+    width: 100%;
+    padding-bottom: 5px;
+}
+#select-font select { width: 100%;}
+.mini_loader
+{
+  background: url(../../views/img/mini_loader.gif) no-repeat scroll center center #fff;
+  height: 100%;
+  left: 0;
+  opacity: 0.85;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
